@@ -76,7 +76,12 @@
         <ul class="nav flex-column">
             
             
-            <li class="nav-item" data-level="2"><a href="#devops" class="nav-link">DEVOPS</a>
+            <li class="nav-item" data-level="1"><a href="#devops" class="nav-link">DEVOPS</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#security" class="nav-link">Security</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -95,7 +100,7 @@
     Stackdriver,
     Splunk, ETC</li>
 </ul>
-<h2 id="devops">DEVOPS</h2>
+<h1 id="devops">DEVOPS</h1>
 <ul>
 <li>Specially this project requires the close collaboration with DEVOPS teams to understand their code and integrate the monitoring with their pipelines to correct performance and other error during deployment (jenkins Azure Pipelines).</li>
 <li>
@@ -109,7 +114,7 @@
 <p>During the definition of this service it was necessary to complete and get the technical approval for the Security concept which validated that all traffic is encrypted and under SAP standards.</p>
 </li>
 </ul>
-<h3 id="security">Security</h3>
+<h1 id="security">Security</h1>
 <p>All listed projects requires to design and implement the Security standards such as:
     - Monitoring alert with Prisma (Palo Alto networks)
     - Passwords closely guard in the Vault and carefully usage of API's to extract secrets.
